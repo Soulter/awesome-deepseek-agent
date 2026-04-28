@@ -11,19 +11,7 @@ Reasonix is a DeepSeek-native coding agent that runs in the terminal. It's desig
 
 #### 2. Get a DeepSeek API Key
 
-Get your API Key from the [DeepSeek Platform](https://platform.deepseek.com/api_keys). The first launch prompts for it via a built-in wizard, or you can set it as an environment variable upfront.
-
-Linux / Mac:
-
-```
-export DEEPSEEK_API_KEY=<your DeepSeek API Key>
-```
-
-Windows (PowerShell):
-
-```
-$env:DEEPSEEK_API_KEY="<your DeepSeek API Key>"
-```
+Get your API Key from the [DeepSeek Platform](https://platform.deepseek.com/api_keys). The first run of Reasonix prompts for it via a built-in wizard and persists it to `~/.reasonix/config.json` — no environment variable needed.
 
 #### 3. Enter the project directory and run `npx reasonix code` to get started.
 
